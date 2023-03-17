@@ -99,7 +99,7 @@
   .timer p {
     margin: 0 5px;
     font-family: "Judge", Sans-serif;
-    font-size: 20px;
+    font-size: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,7 +108,37 @@
   .timer__items {
     display: flex;
     flex-direction: row;
-    font-size: 60px;
+    font-size: 40px;
     font-family: "Judge", Sans-serif;
+  }
+
+  .elementor-1342
+    .elementor-element.elementor-element-1c0373e
+    .elementor-heading-title,
+  .elementor-1342
+    .elementor-element.elementor-element-5b7f78f
+    .elementor-heading-title,
+  .elementor-1342
+    .elementor-element.elementor-element-6b6efa2
+    .elementor-heading-title,
+  .elementor-1342
+    .elementor-element.elementor-element-bcbdae1
+    .elementor-heading-title,
+  .elementor-1342
+    .elementor-element.elementor-element-7822a701
+    .elementor-heading-title {
+    font-size: 2em !important;
+  }
+
+  .giveaway {
+    font-size: 2em !important;
+  }
+
+  .giveaway-NFT {
+    font-size: 1em;
+  }
+
+  .connect-button {
+    padding: 13px 25px;
   }
 }
