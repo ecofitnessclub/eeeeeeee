@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #86dfc2;
+}
+
+body {
+  font-family: "Judge", sans-serif !important;
+  font-weight: 400 !important;
+  font-weight: normal;
+  text-transform: uppercase;
+  background-color: #101111;
+}
+
+.myContainer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-weight: 800;
+  font-style: normal;
+  text-align: center;
+  position: relative;
+}
+.container-text {
+  margin: 0 auto;
+  max-width: 752px;
+}
+.container-text h1 {
+  color: red;
+  font-family: "Judge", sans-serif;
+  font-size: 4em;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.container-text p {
+  margin: 0 auto;
+  max-width: 80%;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: lightgrey;
+  padding-top: 20px;
+}
+
+.center-block {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+img {
+  width: 145px;
+  padding: 10px;
+  border-radius: 18px;
+}
+
+.splide__track {
+  padding: 20px 0;
+  /* height: 169px; */
+}
+
+.splide__slide {
+  max-width: 150px !important;
+  width: 150px !important;
+  background: #101111;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  margin: 0 15px !important;
+}
+
+.splide__pagination {
+  display: none !important;
+}
+
+.splide__arrow {
+  display: none !important;
+}
+
+.btn-get {
+  background: #0d6efd;
+  font-family: "Judge", sans-serif;
+  font-size: 3em !important;
+  font-weight: normal;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 19px 82px;
+  text-decoration: unset;
+  transition: all 0.5s;
+  margin: 40px 0;
+}
+
+.u-8-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.u-8-1 {
+  margin: auto;
+}
+
+.result {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 30px;
+  background-color: darkgrey;
+  margin: 0 auto;
+}
+
+.btn-go {
+  border: none;
+  border-radius: 50px;
+  background: #0d6efd;
+  font-family: "Judge", sans-serif;
+  font-size: 4em;
+  font-weight: 400 !important;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  padding: 19px 82px;
+  text-decoration: unset;
+  transition: all 0.5s;
+  margin: 40px 0;
+}
+
+.card {
+  padding: 20px 0 0 0;
+}
+
+.wallet {
+  padding: 0 30px;
+}
+
+.price {
+  color: #ffffff;
+  font-style: normal;
+  font-size: 35px;
+  padding-top: 20px;
+  line-height: 54px;
+  font-weight: 400 !important;
+}
+
+.card-photo {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  max-width: 150px !important;
+  /* width: 165px !important; */
+  margin: 0 auto;
+}
+
+.congratulation {
+  color: #ffffff;
+  padding-top: 20px;
+  font-size: 30px;
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  align-self: center;
+  padding-bottom: 20px;
+  max-width: 570px;
+  margin: 0 auto;
+  font-weight: 400 !important;
+}
+
+.congratulation h3 {
+  max-width: 340px;
+  margin: 0 auto;
+  font-size: 26px;
+  font-weight: 400 !important;
+}
+
+.close-beck {
+  background: darkgray;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  cursor: pointer;
+  color: #0fdecd;
+  border: 1px solid #ececef;
+  border-radius: 50%;
+  box-shadow: 0 3px 0 #dddfe3;
+  margin-left: 10px;
+}
+
+.close-beck img {
+  pointer-events: none;
+}
+
+.close {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 0;
+  border: none;
+}
+
+.quest {
+  background: #101111;
+  position: absolute;
+  z-index: 500;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 400px;
+  max-height: 500px;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+}
+
+.shure {
+  font-size: 25px;
+  padding-top: 50px;
+  font-weight: 400 !important;
+  color: #101111 !important;
+}
+
+.buttonss {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 85px;
+}
+
+.yes,
+.no {
+  padding: 20px;
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+  background: #0d6efd;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 400 !important;
+}
+
+.namem {
+  padding-top: 20px;
+  font-weight: 400 !important;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.dollar {
+  font-size: 30px;
+  font-weight: 400 !important;
+}
+
+.elementor-column {
+  margin: 0 auto;
+}
+
+.button-block1 {
+  max-width: 233px;
+  margin: 0 auto;
+}
+
+.collect {
+  border: none;
+  border-radius: 50px;
+  background: #0d6efd;
+  font-family: "Judge", sans-serif;
+  font-size: 4em;
+  font-weight: 400 !important;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 19px 82px;
+  text-decoration: unset;
+  transition: all 0.5s;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 500px) {
+  .container-text h1 {
+    font-size: 45px;
+  }
+
+  .container-text p {
+    font-size: 15px;
+  }
+
+  .quest {
+    max-width: 90%;
+  }
+}
