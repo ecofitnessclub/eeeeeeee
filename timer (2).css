@@ -1,0 +1,144 @@
+.top-timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.top-timer h3 {
+  max-width: 300px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+}
+
+.timer p {
+  margin: 0 20px;
+  font-family: "Judge", Sans-serif;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer__items {
+  display: flex;
+  flex-direction: row;
+  font-size: 90px;
+  font-family: "Judge", Sans-serif;
+}
+
+.elementor-1342 .elementor-element.elementor-element-5dae41f {
+  text-align: center !important;
+}
+
+.giveaway {
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: "Judge", Sans-serif;
+  font-size: 3em;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #c36;
+}
+
+.giveaway-NFT {
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: "Judge", Sans-serif;
+  font-size: 3em;
+  font-weight: normal;
+  padding-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.connect {
+  max-width: 1120px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.connect-bottom {
+  max-width: 1120px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.connect-button {
+  padding: 20px 90px;
+  font-size: 2em;
+  font-family: "Judge", Sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+  .top-timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+
+  .top-timer h3 {
+    max-width: 300px;
+  }
+
+  .timer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .timer p {
+    margin: 0 5px;
+    font-family: "Judge", Sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .timer__items {
+    display: flex;
+    flex-direction: row;
+    font-size: 60px;
+    font-family: "Judge", Sans-serif;
+  }
+
+  .elementor-1342
+    .elementor-element.elementor-element-1c0373e
+    .elementor-heading-title,
+  .elementor-1342
+    .elementor-element.elementor-element-5b7f78f
+    .elementor-heading-title,
+  .elementor-1342
+    .elementor-element.elementor-element-6b6efa2
+    .elementor-heading-title,
+  .elementor-1342
+    .elementor-element.elementor-element-bcbdae1
+    .elementor-heading-title,
+  .elementor-1342
+    .elementor-element.elementor-element-7822a701
+    .elementor-heading-title {
+    font-size: 4em !important;
+  }
+
+  .giveaway {
+    font-size: 3em !important;
+  }
+
+  .giveaway-NFT {
+    font-size: 3em;
+  }
+
+  .connect-button {
+    padding: 13px 25px;
+  }
+}
